@@ -1,0 +1,43 @@
+name: Bug report
+description: Something does not work as described in the documentation.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report security problems privately instead, as described in SECURITY.md.
+        Leave out real certificates, keys, PSKs and personal data.
+  - type: input
+    id: version
+    attributes:
+      label: OpenMeshTak version
+      placeholder: "0.2.1"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: clients
+    attributes:
+      label: Apps and devices involved
+      description: For example ATAK 5.4 on Android 14, iTAK, Meshtastic firmware 2.6 on a T-Beam, browser.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant log lines. Check them for secrets and personal data first.
+      render: text
