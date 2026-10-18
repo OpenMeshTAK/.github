@@ -1,6 +1,6 @@
 # OpenMeshTak
 
-**Open-source provisioning, mission authoring and mission distribution for TAK and Meshtastic.**
+**Self-hosted TAK server with Meshtastic for events.** Open source provisioning, mission authoring and mission distribution for ATAK, iTAK, WinTAK and Meshtastic radios.
 
 An administrator defines an event once. OpenMeshTak works out each participant's identity, team and
 role and hands them exactly what they need: a working TAK connection, Meshtastic radio settings and
@@ -14,7 +14,12 @@ PSKs or mission package layouts.
 - **API-first:** the Web app, SDK and your own portals or bots all use the same public REST API
 - **Self-hosted** with Docker Compose, no cloud vendor required
 
-📖 **Documentation:** <https://openmeshtak.github.io/openmeshtak-docs/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/OpenMeshTAK/.github/main/profile/assets/event-live-dark.webp">
+  <img src="https://raw.githubusercontent.com/OpenMeshTAK/.github/main/profile/assets/event-live-light.webp" alt="Live view of a fictional demo event: TAK apps and Meshtastic nodes on the event map, grouped by team">
+</picture>
+
+📖 **[Documentation](https://openmeshtak.github.io/openmeshtak-docs/)** · [Self-hosted TAK server](https://openmeshtak.github.io/openmeshtak-docs/tak-server) · [ATAK with Meshtastic](https://openmeshtak.github.io/openmeshtak-docs/atak-meshtastic)
 
 ## Repositories
 
